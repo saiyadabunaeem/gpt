@@ -1,0 +1,163 @@
+.footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+
+}
+.footerHead {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.footerHead h1 {
+    font-size: 50px;
+    font-family: var(--font-family);
+    line-height: 65px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    font-weight: 800;
+    margin: 1rem 0;
+   
+
+}
+.footerBtn button {
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    line-height: 625x;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    background: transparent;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.footerBtn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid white;
+    margin-bottom: 10rem;
+    
+}
+.footerCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+
+}
+.footerCon div {
+    width: 250px;
+    margin: 1rem;
+}
+.footerConLogo {
+    display: flex;
+    flex-direction: column;
+}
+.footerConLogo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+.footerConLogo p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 14px;
+    color: #FFFFFF;
+   
+   
+}
+.footerCon div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.footerCon div h4 {
+    font-size: 14px;
+    font-family: var(--font-family);
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.footerCon div p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem 0;
+    cursor: pointer;
+
+}
+.footerLast {
+    margin: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.footerLast p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 14px;
+    color: #FFFFFF;
+   
+}
+@media screen and (max-width: 850px) {
+    .footerHead {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .footerCon div {
+        margin: 1rem 0;
+
+    }
+    .footerBtn button {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footerConLogo img {
+        width: 100px;
+        height: 30px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footerHead h1 {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0.5rem 0;
+    }
+    .footerCon div {
+        margin: 1rem 0;
+
+    }
+    .footerBtn p {
+        font-size: 12px;
+        line-height: 18;
+    }
+    .footerBtn {
+        margin-bottom: 5rem;
+    }
+    .footerConLogo img {
+        width: 99px;
+        height: 30px;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footerHead h1 {
+        font-size: 27px;
+        line-height: 35px;
+        margin: 0.5rem 0;
+    }
+}

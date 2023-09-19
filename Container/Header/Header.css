@@ -1,0 +1,166 @@
+.header {
+display: flex;
+padding: 2rem 3rem;
+
+
+
+}
+.headerContent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.headerContent h1 {
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+letter-spacing: -0.04rem;
+
+}
+.headerContent p {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+.headerInput {
+
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+.headerInput input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer) ;
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    outline: none;
+
+    }
+.headerInput button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #FF4820;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    color: #FFFFFF;
+    padding: 0 1rem;
+    border: none;
+}
+.headerPeople {
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-top: 2rem;
+
+}
+.headerPeople img {
+    width: 181.79px;
+    height: 38px;
+}
+.headerPeople p {
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.headerImg {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.headerImg img {
+
+    height: 100%;
+    width: 50vw;
+}
+@media screen and (max-width: 1050px) {
+    .header {
+        flex-direction: column;
+
+    }
+    .headerContent {
+        margin: 0 0 3rem;
+
+    }
+}
+@media screen and (max-width: 650px) {
+    .headerContent h1 {
+        font-size: 48px;
+        line-height: 60px;
+
+    }
+    .header p {
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+    .headerPeople {
+        flex-direction: column;
+
+    }
+    .headerPeople p {
+        margin: 0;
+    }
+    .headerInput input, .headerInput button {
+        font-size: 13px;
+        line-height: 24px;
+
+    }
+    .header {
+        padding: 2rem 0.5rem;
+        
+        
+        
+        }
+}
+@media screen and (max-width: 490px) {
+    .headerContent h1 {
+        font-size: 36px;
+        line-height: 48px;
+
+    }
+    .header p {
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .headerInput input, .headerInput button {
+        font-size: 10px;
+        line-height: 16px;
+
+    }
+    .header {
+        display: flex;
+        padding: 2rem 0.3rem;
+        
+        
+        
+        }
+}

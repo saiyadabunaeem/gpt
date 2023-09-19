@@ -1,0 +1,60 @@
+.whatgpt {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0.5rem;
+
+
+}
+.whatgptFeature {
+    display: flex;
+
+
+}
+.whatgptFeature .FeaturesConFeature {
+    margin: 0;
+
+}
+.whatgptFeature .FeaturesConFeatureTxt {
+    max-width: 700px;
+
+}
+.whatgptHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0.2rem;
+
+
+}
+.whatgptHeading h1 {
+    
+    font-size: 34px;
+    font-family: var(--font-family);
+    line-height: 45px;
+    max-width: 510px;
+    font-weight: 800;
+
+
+}
+.whatgptHeading p {
+    color: var(--color-subtext);
+   
+    font-size: 16px;
+    font-family: var(--font-family);
+    line-height: 30px;
+    max-width: 510px;
+    font-weight: 800;
+
+
+}
+.whatgptCon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+   
+}

@@ -1,0 +1,73 @@
+.poss {
+
+    display: flex;
+}
+.possImg {
+
+
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+}
+.possImg img {
+    width: 100%;
+    height: 100%;
+
+
+}
+.possCon {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;align-items: flex-start;
+
+
+}
+.possCon h4 {
+    font-size: 16px;
+    font-family: var(--font-family);
+    line-height: 30px;
+    
+    font-weight: 500;
+    color: #71E5FF;
+
+}
+.possCon h4:last-child {
+    color: #FF8A71;
+}
+.possCon h1 {
+    font-size: 34px;
+    font-family: var(--font-family);
+    line-height: 45px;
+    
+    font-weight: 800;
+    margin: 1rem 0;
+   
+
+
+}
+.possCon p{
+    font-size: 16px;
+    font-family: var(--font-family);
+    line-height: 30px;
+    
+    font-weight: 500;
+    color: var(--color-text);
+
+}
+@media screen and (max-width: 990px) {
+    .poss {
+        flex-direction: column;
+    }
+    .possImg {
+        margin: 1rem 0;
+    }
+    .possCon {
+        margin-top: 2rem;
+    }
+
+
+}
